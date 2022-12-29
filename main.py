@@ -1,5 +1,7 @@
 from time import sleep
 
-while True:
+count = 0
+while count < 10:
     print("hello gocd")
     sleep(1)
+    count += 1
